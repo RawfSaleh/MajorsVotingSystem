@@ -20,10 +20,12 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+    // to test connection
+    public void topage2(View V){
+        Intent i = new Intent(this,VotingPage.class);
+        startActivity(i);
 
-   /* public void frstpg(View V){
-        Internt i = new Intent(this,);
 
-    }*/
+    }
 
 }
