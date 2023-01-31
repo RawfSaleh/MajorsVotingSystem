@@ -39,6 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="9dp"
         android:text="Click here!"
+        android:onClick="deletevote"
         android:textAlignment="center"
         android:textColor="#004AAD"
         android:textSize="20dp"

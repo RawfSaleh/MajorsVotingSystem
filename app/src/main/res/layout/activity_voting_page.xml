@@ -38,7 +38,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="8dp"
-            android:onClick="topage6"
+            android:onClick="addcivil"
             app:cardCornerRadius="8dp">
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -68,7 +68,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="8dp"
-            android:onClick="topage6"
+            android:onClick="addpsy"
             app:cardCornerRadius="8dp">
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -96,7 +96,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="8dp"
-            android:onClick="topage6"
+            android:onClick="addis"
             app:cardCornerRadius="8dp">
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -124,7 +124,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="8dp"
-            android:onClick="topage6"
+            android:onClick="addmusic"
             app:cardCornerRadius="8dp">
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -152,7 +152,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="8dp"
-            android:onClick="topage6"
+            android:onClick="addcyber"
             app:cardCornerRadius="8dp">
             <LinearLayout
                 android:layout_width="wrap_content"
