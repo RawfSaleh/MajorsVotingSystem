@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "924963245444",
-    "project_id": "majorsvotingsystem",
-    "storage_bucket": "majorsvotingsystem.appspot.com"
+    "project_number": "586947872996",
+    "project_id": "majorsvotingsystem-30498",
+    "storage_bucket": "majorsvotingsystem-30498.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:924963245444:android:66e56dc8786c523dbee1d1",
+        "mobilesdk_app_id": "1:586947872996:android:59013e1e2174aecd4044f1",
         "android_client_info": {
           "package_name": "com.example.majorsvotingsystem"
         }
       },
       "oauth_client": [
         {
-          "client_id": "924963245444-3issnpjjitil6t3rorcu0qv1j19htg00.apps.googleusercontent.com",
+          "client_id": "586947872996-vrg9mhkjh8ecl99kmllgkl69q6ep2pqv.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC7zDxrsy7dOTrFcVO3JQgyPB3sSABsvAY"
+          "current_key": "AIzaSyAR0cyfvfEI4cCvtBS16CqBWlOyn96wXCU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "924963245444-3issnpjjitil6t3rorcu0qv1j19htg00.apps.googleusercontent.com",
+              "client_id": "586947872996-vrg9mhkjh8ecl99kmllgkl69q6ep2pqv.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

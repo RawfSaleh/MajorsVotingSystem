@@ -1,5 +1,6 @@
 package com.example.majorsvotingsystem;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
 import android.view.View;
@@ -100,6 +101,8 @@ public class registeration extends AppCompatActivity implements View.OnClickList
                                                 if(task.isSuccessful()){
                                                     Toast.makeText(registeration.this,"User has been registerd successfully!",Toast.LENGTH_LONG).show();
                                                     //redirect user to voting activity
+                                                    Intent i = new Intent(registeration.this,VotingPage.class);
+                                                    startActivity(i);
                                                 }else{
                                                     Toast.makeText(registeration.this, "Failed to register!", Toast.LENGTH_SHORT).show();
                                                 }
