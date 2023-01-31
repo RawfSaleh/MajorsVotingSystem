@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "924963245444",
+    "project_id": "majorsvotingsystem",
+    "storage_bucket": "majorsvotingsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924963245444:android:66e56dc8786c523dbee1d1",
+        "android_client_info": {
+          "package_name": "com.example.majorsvotingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924963245444-3issnpjjitil6t3rorcu0qv1j19htg00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7zDxrsy7dOTrFcVO3JQgyPB3sSABsvAY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924963245444-3issnpjjitil6t3rorcu0qv1j19htg00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

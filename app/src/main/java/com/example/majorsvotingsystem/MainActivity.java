@@ -1,12 +1,12 @@
 package com.example.majorsvotingsystem;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,11 +20,15 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    // to test connection
     public void topage2(View V){
-        Intent i = new Intent(this,VotingPage.class);
+        Intent i = new Intent(this,LogIn.class);
         startActivity(i);
 
+    }
+
+    public void topage3(View V){
+        Intent i = new Intent(this,registeration.class);
+        startActivity(i);
 
     }
 
