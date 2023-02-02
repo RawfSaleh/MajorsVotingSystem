@@ -51,7 +51,6 @@ public class registeration extends AppCompatActivity implements View.OnClickList
             String password=pw.getText().toString().trim();
             String na=name.getText().toString().trim();
             String ag=age.getText().toString().trim();
-            String v = "null";
 
             if(na.isEmpty()){
                 name.setError("Name is requierd!");
@@ -91,7 +90,7 @@ public class registeration extends AppCompatActivity implements View.OnClickList
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if(task.isSuccessful()){
-                                user User=new user(na,ag,em,v);                  //name of collection
+                                user User=new user(na,ag,em);                  //name of collection
                                 FirebaseDatabase.getInstance().getReference("users")
                                         // set user register id to a collection
                                         .child(FirebaseAuth.getInstance().getCurrentUser().getUid())

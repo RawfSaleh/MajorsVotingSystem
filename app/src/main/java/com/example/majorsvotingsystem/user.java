@@ -2,7 +2,7 @@ package com.example.majorsvotingsystem;
 
 public class user {
     public String name,age,email,vote;
-    public user(){
+    public user(String na, String ag, String em){
 
 
     }
