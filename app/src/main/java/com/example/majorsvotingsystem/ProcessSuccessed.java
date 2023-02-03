@@ -20,8 +20,6 @@ import com.google.firebase.database.ValueEventListener;
 public class ProcessSuccessed extends AppCompatActivity {
     // creating a variable for
     // our Firebase Database.
-    FirebaseDatabase firebaseDatabase;
-    private FirebaseAuth mAuth;
     DatabaseReference reference;
 
     @Override
@@ -38,7 +36,7 @@ public class ProcessSuccessed extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot snapshot) {
 
                    String n = snapshot.child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("name").getValue().toString();
-                   na.setText("Thank u "+ n);
+                   na.setText("Thank you "+ n);
             }
 
             @Override

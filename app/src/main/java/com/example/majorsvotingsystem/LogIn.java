@@ -82,7 +82,7 @@ public class LogIn extends AppCompatActivity implements View.OnClickListener{
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
                     //redirect to user profile
-                    startActivity(new Intent(LogIn.this,VotingPage.class));
+                    startActivity(new Intent(LogIn.this,ProcessSuccessed.class));
                 }else {
                     Toast.makeText(LogIn.this, "Faild to login! please check your credentials", Toast.LENGTH_SHORT).show();
                 }

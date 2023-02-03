@@ -12,4 +12,5 @@ public class user {
         this.email=email;
         this.vote = vote;
     }
+
 }
